@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calciulator</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>
+     Calculator
+  </h1>
+  <div class="container">
+    <form action="">
+      <p>calc</p>
+      <input type="text" id="screen">
+
+      <input class="button clear" type="button" value="AC" onclick="allclear()"> 
+      <input class="button operator" type="button" value="%"onclick="btclick(value)">  
+      <input class="button operator" type="button" value="^2"onclick="sqr()">
+      <input class="button operator"  type="button" value="-"onclick="btclick(value)">
+
+
+
+
+      <br>
+      <input class="button number" type="button" value="7" onclick="btclick(value)"> 
+      <input class="button number" type="button" value="8"onclick="btclick(value)">  
+      <input class="button number" type="button" value="9"onclick="btclick(value)">
+      <input class="button operator"type="button" value="/"onclick="btclick(value)">
+
+<br>
+      <input class="button number" type="button" value="4"onclick="btclick(value)"> 
+      <input class="button number" type="button" value="5"onclick="btclick(value)">  
+      <input class="button number" type="button" value="6"onclick="btclick(value)">
+      <input class="button operator"  type="button" value="*"onclick="btclick(value)">
+
+
+
+<br>
+      <input class="button number" type="button" value="3"onclick="btclick(value)"> 
+      <input class="button number" type="button" value="2"onclick="btclick(value)">  
+      <input class="button number" type="button" value="1"onclick="btclick(value)">
+      <input class="button operator"  type="button" value="+"onclick="btclick(value)">
+      <br>
+    
+      
+      <input class="button number" type="button" value="."onclick="btclick(value)">  
+      <input class="button dot" type="button" value="0"onclick="btclick(value)"> 
+      <input class="button result" type="button" value="="onclick="equals()">
+      
+    
+    
+    
+    
+    
+    </form>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
